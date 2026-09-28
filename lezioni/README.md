@@ -6,4 +6,5 @@ Nota: La realizzazione di questi documenti è stata svolta grazie all'ausilio di
 
 1. Lunedì 21/09/2026 [Dagli algoritmi alle basi di dati](1_Dall_elaborazione_dei_dati_alle_basi_di_dati.md)
 2. Martedì 22/09/2026 [Dalla realtà al modello E-R](2_Dalla_realta_al_modello_ER.md)
-2. Mercoledì 23/09/2026 [Dal modello concettuale alla rappresentazione dei dati](3_Dal_modello_concettuale_alla_rappresentazione_dei_dati.md)
+3. Mercoledì 23/09/2026 [Dal modello concettuale alla rappresentazione dei dati](3_Dal_modello_concettuale_alla_rappresentazione_dei_dati.md)
+4. Lunedì 28/09/2026 [Dalle tabelle all'interrogazione dei dati](4_Interrogazione_dati_imperativo_dichiarativo.md)
