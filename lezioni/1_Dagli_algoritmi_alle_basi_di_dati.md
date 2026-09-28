@@ -108,11 +108,7 @@ I dati JSON caricati in Python diventano una variabile. Possiamo modificarli, fi
 
 Ma che cosa succede quando il programma termina?
 
-Normalmente i dati contenuti nelle variabili vengono perduti. La RAM è infatti una memoria **volatile**: conserva le informazioni soltanto mentre il programma e il dispositivo sono in funzione.
-
-Come potremmo dire in modo molto semplice:
-
-> La RAM va via come la neve al sole di marzo.
+Normalmente i dati contenuti nelle variabili vengono perduti. La RAM è infatti una memoria **volatile**: conserva le informazioni soltanto mentre il programma e il dispositivo sono in funzione, poi va via come la neve al sole di marzo.
 
 Se vogliamo ritrovare le informazioni in un momento successivo, dobbiamo trasferirle dalla memoria temporanea a una memoria permanente, per esempio salvandole su disco.
 
