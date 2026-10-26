@@ -26,17 +26,17 @@ La nozione di insieme è talmente fondamentale che, nella teoria matematica, vie
 
 Per il momento mettiamo da parte gli attributi delle entità e immaginiamo che STUDENTE sia rappresentato dall'insieme delle sue occorrenze:
 
-\[
+$$
 S=\{\text{Marco},\text{Luca},\text{Maria}\}
-\]
+$$
 
 Allo stesso modo, consideriamo l'insieme dei corsi:
 
-\[
+$$
 C=\{\text{Informatica},\text{Matematica},\text{Storia}\}
-\]
+$$
 
-La scrittura \(\text{Marco}\in S\) significa che Marco *appartiene* all'insieme S. Invece \(\text{Informatica}\in C\).
+La scrittura $\text{Marco}\in S$ significa che Marco *appartiene* all'insieme S. Invece $\text{Informatica}\in C$.
 
 ```text
        insieme S = STUDENTE                  insieme C = CORSO
@@ -53,26 +53,26 @@ Naturalmente i nomi servono qui a semplificare: nella realtà, due studenti potr
 
 Prendiamo ora un elemento dal primo insieme e uno dal secondo:
 
-\[
+$$
 (\text{Marco},\text{Informatica})
-\]
+$$
 
 Abbiamo costruito una **coppia ordinata**. Scriviamo una parentesi tonda e, in prima posizione, un elemento di STUDENTE; in seconda posizione, un elemento di CORSO.
 
 Altri esempi:
 
-\[
+$$
 (\text{Marco},\text{Matematica}),\quad
 (\text{Luca},\text{Storia}),\quad
 (\text{Maria},\text{Informatica})
-\]
+$$
 
 **Perché si chiamano ordinate?** Perché le posizioni hanno un significato e quindi l'ordine non è arbitrario. Abbiamo deciso di scrivere prima lo studente e poi il corso. Non possiamo improvvisamente invertire le posizioni e pretendere che la rappresentazione conservi lo stesso significato:
 
-\[
+$$
 (\text{Marco},\text{Informatica})\neq
 (\text{Informatica},\text{Marco})
-\]
+$$
 
 In altri termini, non stiamo semplicemente mettendo due parole una accanto all'altra: stiamo costruendo un oggetto matematico nel quale **il primo posto e il secondo posto hanno ruoli distinti**.
 
@@ -80,15 +80,15 @@ In altri termini, non stiamo semplicemente mettendo due parole una accanto all'a
 
 **Domanda:** «Avete mai sentito parlare di *prodotto cartesiano*?»
 
-Indichiamo con \(S\times C\) il **prodotto cartesiano** di S e C. È l'insieme di **tutte le coppie ordinate possibili** nelle quali il primo elemento appartiene a S e il secondo a C.
+Indichiamo con $S\times C$ il **prodotto cartesiano** di S e C. È l'insieme di **tutte le coppie ordinate possibili** nelle quali il primo elemento appartiene a S e il secondo a C.
 
-\[
+$$
 S\times C=\{(s,c)\mid s\in S\ \text{e}\ c\in C\}
-\]
+$$
 
 Con tre studenti e tre corsi otteniamo nove coppie:
 
-\[
+$$
 \begin{aligned}
 S\times C=\{&
 (\text{Marco},\text{Informatica}),
@@ -101,7 +101,7 @@ S\times C=\{&
 (\text{Maria},\text{Matematica}),
 (\text{Maria},\text{Storia})\}
 \end{aligned}
-\]
+$$
 
 ```text
                          CORSO
@@ -118,9 +118,9 @@ S\times C=\{&
 
 È un prodotto nel senso che, se gli insiemi sono finiti, il numero di combinazioni si calcola moltiplicando le loro numerosità:
 
-\[
+$$
 |S\times C|=|S|\cdot |C|=3\cdot3=9
-\]
+$$
 
 Non abbiamo ancora affermato che Marco frequenti davvero Informatica, o che Maria frequenti Storia: stiamo semplicemente elencando **tutte le combinazioni teoricamente possibili**.
 
@@ -130,11 +130,11 @@ Durante la lezione è emersa una connessione con un argomento già studiato in m
 
 Un punto viene identificato tramite una coppia ordinata:
 
-\[
+$$
 P=(x,y)
-\]
+$$
 
-Per esempio \(P=(2,3)\): prima la coordinata orizzontale, poi quella verticale.
+Per esempio $P=(2,3)$: prima la coordinata orizzontale, poi quella verticale.
 
 ```text
                 y
@@ -149,13 +149,13 @@ Per esempio \(P=(2,3)\): prima la coordinata orizzontale, poi quella verticale.
 
 Il piano cartesiano può essere espresso come:
 
-\[
+$$
 \mathbb{R}\times\mathbb{R}=\mathbb{R}^{2}
-\]
+$$
 
-Il simbolo \(\mathbb{R}\) indica l'insieme dei **numeri reali**, non quello dei numeri naturali \(\mathbb{N}\). Nel piano cartesiano, sia la prima sia la seconda coordinata possono assumere un qualsiasi valore reale.
+Il simbolo $\mathbb{R}$ indica l'insieme dei **numeri reali**, non quello dei numeri naturali $\mathbb{N}$. Nel piano cartesiano, sia la prima sia la seconda coordinata possono assumere un qualsiasi valore reale.
 
-La differenza rispetto al nostro esempio è che \(\mathbb{R}\) contiene infiniti elementi, mentre S e C ne contengono soltanto tre ciascuno. Inoltre i numeri reali hanno una proprietà interessante: **tra due numeri reali distinti si possono sempre trovare infiniti altri numeri reali**. Diciamo che \(\mathbb{R}\) è denso rispetto all'ordine usuale. I numeri naturali, invece, sono discreti: tra 1 e 2 non esiste alcun altro numero naturale.
+La differenza rispetto al nostro esempio è che $\mathbb{R}$ contiene infiniti elementi, mentre S e C ne contengono soltanto tre ciascuno. Inoltre i numeri reali hanno una proprietà interessante: **tra due numeri reali distinti si possono sempre trovare infiniti altri numeri reali**. Diciamo che $\mathbb{R}$ è denso rispetto all'ordine usuale. I numeri naturali, invece, sono discreti: tra 1 e 2 non esiste alcun altro numero naturale.
 
 Quindi il prodotto cartesiano non è qualcosa di estraneo: è la stessa costruzione che compare quando pensiamo ai punti del piano, ma applicata a insiemi di studenti e di corsi.
 
@@ -167,11 +167,11 @@ Arriviamo al punto principale.
 
 Definiamo per esempio la relazione ISCRIZIONE con le coppie:
 
-\[
+$$
 I=\{(\text{Marco},\text{Informatica}),
 (\text{Luca},\text{Matematica}),
 (\text{Maria},\text{Storia})\}
-\]
+$$
 
 *(Le tre iscrizioni sono dati di esempio inseriti per rendere esplicita la scelta delle coppie; la lezione orale non specificava un elenco completo di iscrizioni.)*
 
@@ -190,29 +190,29 @@ I=\{(\text{Marco},\text{Informatica}),
 
 La definizione matematica è:
 
-\[
+$$
 \boxed{I\subseteq S\times C}
-\]
+$$
 
 In generale, una **relazione binaria** tra due insiemi A e B è un qualunque sottoinsieme del loro prodotto cartesiano:
 
-\[
+$$
 \boxed{R\subseteq A\times B}
-\]
+$$
 
 Questa scrittura è fondamentale: una relazione non è il prodotto cartesiano intero, ma una **selezione di alcune sue coppie** (eventualmente nessuna, oppure tutte).
 
 Per rinforzare il concetto, durante la lezione si è considerato anche un esempio minimale:
 
-\[
+$$
 A=\{a,b\},\qquad B=\{1,2\}
-\]
+$$
 
-\[
+$$
 A\times B=\{(a,1),(a,2),(b,1),(b,2)\}
-\]
+$$
 
-Una possibile relazione potrebbe essere \(R=\{(a,1),(b,2)\}\), ma ne esistono molte altre. Questo esempio rende chiarissimo che la relazione è un **sottoinsieme** delle possibilità offerte dal prodotto cartesiano.
+Una possibile relazione potrebbe essere $R=\{(a,1),(b,2)\}$, ma ne esistono molte altre. Questo esempio rende chiarissimo che la relazione è un **sottoinsieme** delle possibilità offerte dal prodotto cartesiano.
 
 ## 7. E cosa c'entra tutto questo con le tabelle?
 
@@ -327,29 +327,29 @@ Questa distinzione è **concettuale, non grammaticale**: i sostantivi possono no
 
 Gli strumenti della prima parte consentono di descrivere anche questo caso. Consideriamo gli insiemi delle occorrenze:
 
-\[
+$$
 D=\{\text{docenti}\},\quad
 S=\{\text{studenti}\},\quad
 M=\{\text{materie}\}
-\]
+$$
 
 Il prodotto cartesiano fra tre insiemi è formato da **terne ordinate**:
 
-\[
+$$
 D\times S\times M
-\]
+$$
 
 Una relazione ternaria è quindi un sottoinsieme:
 
-\[
+$$
 \boxed{V\subseteq D\times S\times M}
-\]
+$$
 
 Una sua possibile occorrenza è:
 
-\[
+$$
 (\text{prof. Rossi},\text{Marco},\text{Informatica})
-\]
+$$
 
 Per esempio, quella terna esprime che il docente Rossi valuta Marco nella materia Informatica. I tre posti della terna hanno ruoli precisi, così come accadeva per le coppie ordinate.
 
@@ -404,9 +404,9 @@ Possiamo pensare, semplificando, a un database come a un contenitore organizzato
 
 Il software di gestione si chiama **DBMS**:
 
-\[
+$$
 \boxed{\text{DBMS = Database Management System}}
-\]
+$$
 
 *Management* significa gestione: il DBMS è il **sistema di gestione della base di dati**. È un programma (o sistema software) che permette, fra le altre cose, di creare database, organizzarli, consultarli, modificarli e amministrarli.
 
@@ -692,15 +692,15 @@ Si è evocata anche l'espressione storiografica **«secolo breve»**, riferita a
 
 **1. Introduzione matematica.** Il prodotto cartesiano costruisce tutte le combinazioni possibili di elementi di due insiemi. Una relazione è un sottoinsieme di quelle combinazioni. Le coppie possono essere rappresentate come righe di una tabella.
 
-\[
+$$
 \boxed{R\subseteq A\times B}
-\]
+$$
 
 **2. Relazioni ternarie.** Una relazione può associare contemporaneamente tre occorrenze e non deve essere necessariamente chiamata con un verbo. La distinzione tra entità e relazione è concettuale e dipende anche da ciò che dobbiamo identificare nel modello.
 
-\[
+$$
 \boxed{V\subseteq D\times S\times M}
-\]
+$$
 
 **3. Sistemi informativi.** Un database memorizza dati; un DBMS li gestisce; un'applicazione usa il DBMS per offrire funzionalità a persone o altri sistemi. Le interfacce e l'astrazione permettono di separare le responsabilità. Il sistema informativo comprende inoltre il contesto organizzativo in cui tali strumenti sono utilizzati.
 
