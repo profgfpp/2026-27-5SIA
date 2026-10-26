@@ -9,3 +9,4 @@ Nota: La realizzazione di questi documenti è stata svolta grazie all'ausilio di
 3. Mercoledì 23/09/2026 [Dal modello concettuale alla rappresentazione dei dati](3_Dal_modello_concettuale_alla_rappresentazione_dei_dati.md)
 4. Lunedì 28/09/2026 [Dalle tabelle all'interrogazione dei dati](4_Interrogazione_dati_imperativo_dichiarativo.md)
 5. Martedì 06/10/2026 [Sulle relazioni e la loro molteplicità](5_Sulle_relazioni_e_la_loro_molteplicita.md)
+6. Giovedì 20/10/2026 [Introduzione matematica alle relazioni - I Sistemi Informativi](6_relazioni_matematica_sistemi_informativi.md)
